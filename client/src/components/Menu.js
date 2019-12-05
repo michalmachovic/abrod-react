@@ -4,16 +4,35 @@ import { Link } from 'react-router-dom';
 
 const Menu = () => {
     return (
-        <div>
+        <div id="header">
+			<div id="header-wrapper">
+				<div id="logo-wrapper">
+					<a href="index.php">
+						<div id="logo">
+						</div>
+					</a>
+				</div>
 
-                <Link to="/">
-                    Home
-                </Link>
+                <div id="menu">
+                    <div class="item">
+                        <Link to="/">
+                            Home
+                        </Link>
+                    </div>
 
-                <Link to="/contact">
-                    Contact
-                </Link>
-            
+                    <div class="item">
+                        <Link to="/news">
+                            News
+                        </Link>
+                    </div>
+
+                    <div class="item">
+                        <Link to="/contact">
+                            Contact
+                        </Link>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
