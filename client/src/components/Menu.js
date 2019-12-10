@@ -14,19 +14,19 @@ const Menu = () => {
 				</div>
 
                 <div id="menu">
-                    <div class="item">
+                    <div className="item">
                         <Link to="/">
                             Home
                         </Link>
                     </div>
 
-                    <div class="item">
+                    <div className="item">
                         <Link to="/news">
                             News
                         </Link>
                     </div>
 
-                    <div class="item">
+                    <div className="item">
                         <Link to="/contact">
                             Contact
                         </Link>

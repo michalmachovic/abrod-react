@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div id="footer">
-			<div class="wrapper">
-				<div class="col">
-					<div class="icon mail"></div>
-					<div class="content">
+			<div className="wrapper">
+				<div className="col">
+					<div className="icon mail"></div>
+					<div className="content">
 						Abrod, s.r.o. <br />
 						Partizánska 401 <br />
 						Horná Streda<br />
@@ -16,16 +16,16 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div class="col">
-					<div class="icon email"></div>
-					<div class="content bigger">
+				<div className="col">
+					<div className="icon email"></div>
+					<div className="content bigger">
 						miro@abrod.sk
 					</div>
 				</div>
 
-				<div class="col">
-					<div class="icon phone"></div>
-					<div class="content bigger">
+				<div className="col">
+					<div className="icon phone"></div>
+					<div className="content bigger">
 						0915 069 954
 					</div>
 				</div>
